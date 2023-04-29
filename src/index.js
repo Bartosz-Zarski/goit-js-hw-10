@@ -20,7 +20,7 @@ function renderCountryList(countries) {
     .join('');
   countryList.innerHTML = markup;
   countryList.querySelectorAll('li').forEach(li => {
-    classList.add("country-detail");
+    li.classList.add("country-detail");
   });
 }
 
