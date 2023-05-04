@@ -24,7 +24,18 @@ body {
 .country-list {
   list-style-type: none
 }
-
+.country-list li{
+  vertical-align: middle;
+  display:flex;
+  align-items: center;
+  font-weight: bold;
+}
 .country-detail {
   font-weight: bold
+}
+.country__Flag {
+  margin-inline: 6px;
+}
+.country-info p {
+  padding-left: 75px;
 }
