@@ -30,7 +30,7 @@ countrySearch.addEventListener(
       countryList.innerHTML = countries
         .map(
           country =>
-            `<li><svg height="16" width="24"class="country__Flag" src="${country.flags.png}" />${country.name.common}</li>`
+            `<li><img height="16" width="24"class="country__Flag" src="${country.flags.png}" />${country.name.common}</li>`
         )
         .join('');
     }
